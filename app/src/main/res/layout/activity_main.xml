@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sa"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:actionBarSize"
+            android:background="#fff"
+            app:popupTheme="@style/AppTheme.AppBarOverlay" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.tmall.ultraviewpager.UltraViewPager
+        android:id="@+id/ultra_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@android:color/darker_gray" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <LinearLayout
+
+                    android:id="@+id/btn_day_1"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/trans_bac"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_lock_1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/lock"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tV_text_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/jandbubble"
+                        android:gravity="center"
+                        android:text="Day 1"
+                        android:textColor="#EFEFEF"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/btn_day_2"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/trans_bac"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_lock_2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/lock"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tV_text_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Day 2"
+                        android:textColor="#fff"
+                        android:fontFamily="@font/jandbubble"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/btn_card_3"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/trans_bac"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_lock_3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/lock"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tV_text_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Day 3"
+                        android:textColor="#fff"
+                        android:fontFamily="@font/jandbubble"
+
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/btn_day_4"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/trans_bac"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_lock_4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/lock"
+                        android:visibility="gone" />
+
+                    <TextView
+
+                        android:id="@+id/tV_text_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Day 4"
+                        android:textColor="#fff"
+                        android:fontFamily="@font/jandbubble"
+                        android:textSize="20sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:id="@+id/btn_day_5"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                     android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/trans_bac_round"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:scaleType="centerInside"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/tea_icon" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_day_6"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/trans_bac"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_lock_6"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/lock"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tV_text_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Day 6"
+                        android:textColor="#fff"
+                        android:fontFamily="@font/jandbubble"
+                        android:textSize="20sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/btn_day_7"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/trans_bac"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_lock_7"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/lock"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tV_text_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/jandbubble"
+                        android:gravity="center"
+                        android:text="Day 7"
+                        android:textColor="#fff"
+
+                        android:textSize="20sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_day_8"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/trans_bac"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_lock_8"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/lock"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tV_text_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/jandbubble"
+                        android:gravity="center"
+                        android:text="Day 8"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_day_9"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/trans_bac"
+
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_lock_9"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/lock"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tV_text_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/jandbubble"
+                        android:gravity="center"
+                        android:text="Day 9"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <com.google.android.ads.nativetemplates.TemplateView
+            android:id="@+id/my_template"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:gnt_template_type="@layout/gnt_small_template_view" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

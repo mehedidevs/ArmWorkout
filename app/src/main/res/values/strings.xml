@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Arm Workout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="native_id">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="adaptive_banner_id">ca-app-pub-3940256099942544/9214589741</string>
+    <string name="ad_attribution">Ad</string>
+
+
+</resources>

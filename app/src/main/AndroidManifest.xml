@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.armworkout">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/FullScreen">
+        <activity android:name=".Activity.Splash_Screen_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Activity.Change_day9_Activity" />
+        <activity android:name=".Activity.Day9_Activity" />
+        <activity android:name=".Activity.Change_day8_Activity" />
+        <activity android:name=".Activity.Day8_Activity" />
+        <activity android:name=".Activity.Change_day7_Activity" />
+        <activity android:name=".Activity.Day7_Activity" />
+        <activity android:name=".Activity.Change_day6_Activity" />
+        <activity android:name=".Activity.Day6_Activity" />
+        <activity android:name=".Activity.Change_day4_Activity" />
+        <activity android:name=".Activity.Day4_Activity" />
+        <activity android:name=".Activity.Change_day3_Activity" />
+        <activity android:name=".Activity.Day3_Activity" />
+        <activity android:name=".Activity.Change_day2_Activity" />
+        <activity android:name=".Activity.Day2_Activity" />
+        <activity android:name=".Activity.Change_img_Activity" />
+        <activity android:name=".Activity.Day1_Activity" />
+        <activity android:name=".MainActivity">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id" />
+    </application>
+
+</manifest>
